@@ -43,6 +43,21 @@ To get started, follow these steps:
     
     Modify the `.env` file with your settings following instructions commented in the file.
 
+    Example :
+
+    ```bash
+    MYSQL_USER=user1
+    MYSQL_PASSWORD=pass1
+    MYSQL_ROOT_PASSWORD=rootpassword
+    MYSQL_DATABASE=listeem_container_db
+    KEY_TO_ENCRYPT_DECRYPT_DB=fds54dfg654897sdf312sdf3
+    HTTP_PORT=8077
+    HTTPS_PORT=8078
+    SERVER_NAME=example.com
+    #SSL_CERT_FILE=/etc/apache2/ssl/fullchain.pem
+    #SSL_KEY_FILE=/etc/apache2/ssl/privkey.pem
+    ```
+
 4. **(Optional) Add your own SSL certificate for HTTPS:**
     
     Create a folder named `ssl` and add your `privkey.pem` and `fullchain.pem` files to this folder. They have to be named exactly this way.
