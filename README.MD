@@ -18,7 +18,9 @@ Check out some features of Listeem at [Features Link](https://listeem.com/featur
 
 ## Docker application - production version
 
-Listeem is provided in the form of a Docker container publicly stored on Docker Hub. See [Docker application - Production version](https://hub.docker.com/r/pozinux/listeem)
+Listeem is provided in the form of a Docker container publicly stored on Docker Hub. 
+
+See [Docker application - Production version](https://hub.docker.com/r/pozinux/listeem)
 
 ## Installation of developpement version
 
