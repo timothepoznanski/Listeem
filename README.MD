@@ -6,7 +6,7 @@ Listeem is a simple to-do list web app.
 
 Among the many to-do list tools already available, it's not always easy to find one that suits our needs. Options are either overloaded with features or lack essentials. Listeem was therefore designed with an emphasis on simplicity and the essentials for effective to-do list management.
 
-![capture](https://github.com/Pozinux/listeem/assets/8541705/486ac670-24b8-46b8-bc7d-1b7ae5619f63)
+![capture1](https://github.com/Pozinux/listeem-app/Readme-screenshot/capture1.png)
 
 ## Table of Contents
 - [Features](#features)
@@ -49,7 +49,7 @@ To get started, follow these steps:
 
 At this step, you should have the following directories and files:
 
-![image](https://github.com/Pozinux/listeem/assets/8541705/e9ed9198-04bd-4a8d-88ec-b27e5c2adc80)
+![capture2](https://github.com/Pozinux/isteem-app/Readme-screenshot/capture2.png)
 
 5. **Run the application:**
    
