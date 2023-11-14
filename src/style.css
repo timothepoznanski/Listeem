@@ -1,0 +1,345 @@
+/* body.my-custom-class{
+    background-color: #c1e0ff;
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .card-body{
+    padding-top: 0px !important;
+} */
+
+/* .main-heading{
+    color: #17a2b8;
+} */
+
+.con{
+    background-color: #c1e0ff;
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);     */
+}
+
+.red-text {
+    color: red;
+  }
+
+hr{
+    height: 8px !important;
+    background: #17a2b8;
+    width: 116px;
+    border: none !important;
+    border-radius: 20px !important;
+    margin-top: 15px !important;
+}
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #A0C4FC;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.atext:hover{
+    color: #333;
+    text-decoration: none;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 100%;
+    height: 100%; */
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 9999;
+}
+
+.blur-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px); /* Adjust the blur intensity as needed */
+  }
+
+#googleConnectButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.hide-google-button {
+    display: none !important;
+  }
+  
+.btn-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-container button {
+    border: none;
+}
+
+.icon-text-table {
+    width: auto;
+    border-collapse: collapse;
+    margin-right: 5px;
+}
+
+.icon-text-table td {
+    padding: 8px 10px; /* Espacement intérieur des cellules */
+    vertical-align: right; /* Centrage vertical du contenu */     
+}
+
+.icon-text-table td:first-child i {
+    margin-right: 10px;  
+}
+
+.icon-red {
+    color: lightcoral;
+}
+
+.icon-button {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #0842A0;
+    border-radius: 5px;        
+    transition: 0.3s;           
+    color: #0842A0;
+    background-color: #fff !important; 
+}
+
+.icon-button:hover {
+    background-color: #A9ACAA;  /* Change the background color on hover */
+    color: #ffffff;             /* Change the icon color on hover */
+}
+
+.filter-input {
+    border: none;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.filter-input:focus {
+    outline: none;
+    border: none;
+    /* box-shadow: none; */
+    box-shadow: 0 0 5px #17a2b8;
+}
+
+.full-width-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.full-width-link:hover {
+    text-decoration: none;
+    color: white !important;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    padding: 0px;
+    margin-top: 5px;
+}
+
+td {
+    border: 0px solid
+}
+
+.right-align {
+    text-align: right;
+}
+
+.centered-table {
+    margin: 0 auto; 
+}
+
+/* Styles for the no-bullets table */
+table.no-bullets {
+    border-collapse: separate;  /* Ensures each row's border is separate */
+    width: 100%; 
+}
+
+table.no-bullets td {
+    /* padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px; */
+    vertical-align: middle;
+}
+
+table.no-bullets td:not(first-child) {
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: #fff; 
+    width: 100%;
+    border: 1px solid #ddd;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);  */
+}
+
+table.no-bullets a:hover {
+    text-decoration: none;
+    color: white !important;
+}
+
+table.no-bullets a {
+    color: #212529 !important;
+    text-decoration: none;
+}
+
+table.no-bullets td:first-child:hover {
+    /* background-color: #F0F0F0;  */
+    background-color: #17a2b8 !important;
+    color: white !important;
+}
+
+.btn-icon-left {
+    position: relative;
+    padding-left: 30px; 
+}
+
+.btn-icon-left i {
+    position: absolute;
+    left: 10px; 
+    top: 50%;
+    transform: translateY(-50%); /* Ceci centrera verticalement l'icône dans le bouton */
+}
+
+.link2 {
+    color: #17a2b8;
+    text-decoration: None;
+}
+
+.link2:hover {
+    color: #00899f;
+    text-decoration: None;
+}
+
+.icon-colored{
+    color: #17a2b8;
+}
+
+.text-colored:not(i){
+    color: #495057 !important; /* Pour le texte des boutons de l'edit */
+}
+
+.btn:hover .text-colored {
+    color: white !important;
+}
+
+
+.input-focus-green:focus {
+    outline: none;
+    border: 0px solid;
+    box-shadow: 0 0 5px #17a2b8 !important;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
+    
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;  /* aligne verticalement les éléments à l'intérieur */
+}
+
+/* Barre de menu */
+
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex !important;
+    align-items: center !important; 
+}
+
+.logo-favicon {
+    height: 25px;
+    width: 25px; 
+    margin-right: 10px;
+}
+
+.site-title {
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+    color: #17a2b8;
+    margin: 0;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-item {
+    margin-left: 15px;  
+}
+
+.nav-link:hover {
+    color: #17a2b8 !important; 
+    text-decoration: None;
+}
+
+.nav-link {
+    transition: color 0.3s; /* Transition douce lors du changement de couleur */
+    /* font-weight: 600; */
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+    color: #17a2b8 !important;
+}
+
+.icon-nav {
+    margin-right: 5px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.custom-spinner {
+    animation: spin 1s linear infinite;
+    width: 32px; /* ou la taille que vous souhaitez pour le spinner */
+    height: 32px; /* même hauteur que la largeur pour garder l'image carrée */
+}
