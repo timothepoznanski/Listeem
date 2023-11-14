@@ -2,7 +2,7 @@
 
 Welcome to Listeem development page ! 🚀 
 
-If you don't know what Listeem is, please first visit [Docker Hub application - Production version](https://github.com/Pozinux/listeem) to learn more about it. 
+If you don't know what Listeem is, please first visit [this link](https://github.com/Pozinux/listeem) to learn more about it. 
 
 If you just want to install the latest version of Listeem and use it for yourself on your own server or computer, Listeem is provided in the form of a Docker container publicly stored on Docker Hub. Please follow the installation steps described at [this link](https://github.com/Pozinux/listeem)
 
