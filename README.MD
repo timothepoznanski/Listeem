@@ -1,32 +1,19 @@
 # Listeem
 
-Welcome to Listeem! 🚀 
+Welcome to Listeem development page ! 🚀 
 
-Listeem is a simple to-do list web app.
+If you don't know what Listeem is, please first visit [Docker Hub application - Production version](https://hub.docker.com/r/pozinux/listeem) to learn more about it. 
 
-Among the many to-do list tools already available, it's not always easy to find one that suits our needs. Options are either overloaded with features or lack essentials. Listeem was therefore designed with an emphasis on simplicity and the essentials for effective to-do list management.
+If you just want to install the latest version of Listeem and use it for yourself on your own server or computer, Listeem is provided in the form of a Docker container publicly stored on Docker Hub. Please follow the installation steps described at [this link](https://hub.docker.com/r/pozinux/listeem)
 
-![screen1](.readme-screenshots/screen1.png)
+However if you want to contribute to this project, you are at the right place.
 
-## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-
-## Features
-
-Check out some features of Listeem at [Features Link](https://listeem.com/features.php)!
-
-## Docker application - production version
-
-Listeem is provided in the form of a Docker container publicly stored on Docker Hub. 
-
-See [Docker Hub application - Production version](https://hub.docker.com/r/pozinux/listeem)
-
-## Installation of developpement version
+## Installation of development version
 
 To get started, follow these steps:
 
 1. **Clone the repository:**
+
     ```bash
     git clone https://github.com/pozinux/listeem-app.git
     ```
@@ -81,6 +68,10 @@ To view it in HTTP, open your web browser and visit:
 To view it in HTTPS (with the self signed certificate or your own certificate), open your web browser and visit:
 
  `https://your-server-domain:8078`
+
+## Contributing
+
+If you want to contribute to the code, don't hesitate to open a pull request. Thanks!
 
 ## Possible errors
 
