@@ -72,7 +72,7 @@ To get started, follow these steps:
 
     To view it in HTTPS (with the self signed certificate or your own certificate), open your web browser and visit:
 
-    `https://YOUR-SERVER-DOMAIN:YOUR-HTTPS-PORT]`
+    `https://YOUR-SERVER-DOMAIN:YOUR-HTTPS-PORT`
 
 7. **Connect to the application:**
 
