@@ -57,21 +57,48 @@ To get started, follow these steps:
     docker compose up -d
     ```
 
-Now, the Listeem application should be up and running. 
+    Now, the Listeem application should be up and running. 
 
 6. **Open the application:**
 
-To view it in HTTP, open your web browser and visit:
+    To view it in HTTP, open your web browser and visit:
 
-`http://your-server-domain:8077`
+    `http://your-server-domain:8077`
 
-To view it in HTTPS (with the self signed certificate or your own certificate), open your web browser and visit:
+    To view it in HTTPS (with the self signed certificate or your own certificate), open your web browser and visit:
 
- `https://your-server-domain:8078`
+    `https://your-server-domain:8078`
 
 7. **Connect to the application:**
 
-Connect with login `listeem` and password `listeem`
+    Connect with login `listeem` and password `listeem`
+
+8. **(Optional) Change authentification:**
+
+    To remove `listeem` account and add your own user : 
+
+    * Open a shell
+    * Navigate to the project directory 
+    * Navigate to `src` folder
+    * Create your .htpasswd (don't change its name) with your own user:
+
+        ```bash
+        htpasswd -c .htpasswd YOUR_OWN_USER
+        ```
+
+    * Change permissions:
+
+        ```bash
+        chmod 640 .htpasswd
+        ```
+        
+    * Change group:
+
+        ```bash
+        chown root:www-data .htpasswd
+        ```
+
+    * Edit the .htaccess file and change `.htpasswd_default` into `.htpasswd`
 
 ## Contributing
 
