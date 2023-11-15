@@ -90,9 +90,13 @@ or
 Fatal error: Uncaught Error: Call to a member function execute()
  ```
 
-The database is probably still initializing or it is a browser cache issue. Wait a few seconds, visit another web page and come back.
+Three possible reasons to this error:
 
-Note :  I have also encountered this error when the server runs out of memory
+1. The database is still initializing
+3. It is a browser cache issue
+4. The server runs out of memory
+   
+Wait a few seconds, visit another web page and come back.
 
 **Case 2**
 
