@@ -95,7 +95,7 @@ Note :  I have also encountered this error when the server runs out of memory
 **Case 2**
 
  ```bash
-    Bad Request
+Bad Request
  ```
 
 You are probably trying to open the url on HTTPS port (probably 8078). Add 'https://' in front of your url or change port to HTTP port (probably 8077).
