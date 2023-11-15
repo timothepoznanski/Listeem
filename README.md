@@ -50,7 +50,11 @@ To get started, follow these steps:
 
 4. **(Optional) Add your own SSL certificate for HTTPS:**
     
-    Create a folder named `ssl` and add your `privkey.pem` and `fullchain.pem` files to this folder. They have to be named exactly this way.
+    Create a folder named `ssl` and add your `privkey.pem` and `fullchain.pem` files to this folder. 
+    
+    /!\ They have to be named exactly this way.
+
+    Uncomment `SSL_CERT_FILE=/etc/apache2/ssl/fullchain.pem` and `SSL_KEY_FILE=/etc/apache2/ssl/privkey.pem` in `.env` file.
 
 5. **Run the application:**
    
