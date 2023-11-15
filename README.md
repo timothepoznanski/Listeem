@@ -59,6 +59,8 @@ To get started, follow these steps:
 
 Now, the Listeem application should be up and running. 
 
+6. **Open the application:**
+
 To view it in HTTP, open your web browser and visit:
 
 `http://your-server-domain:8077`
@@ -66,6 +68,8 @@ To view it in HTTP, open your web browser and visit:
 To view it in HTTPS (with the self signed certificate or your own certificate), open your web browser and visit:
 
  `https://your-server-domain:8078`
+
+7. **Connect to the application:**
 
 Connect with login `listeem` and password `listeem`
 
