@@ -9,6 +9,8 @@ RUN mkdir -p /etc/apache2/default_ssl
 
 # Activate SSL
 RUN a2enmod ssl && a2enmod rewrite
+
+# Activate htaccess
 RUN a2enmod authz_core 
 RUN a2enmod authz_groupfile
 
