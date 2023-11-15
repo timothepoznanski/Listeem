@@ -33,6 +33,8 @@ To get started, follow these steps:
     Example :
 
     ```bash
+    PROJECT_ID=3
+    COMPOSE_PROJECT_NAME=listeem_${PROJECT_ID}
     MYSQL_USER=user1
     MYSQL_PASSWORD=pass1
     MYSQL_ROOT_PASSWORD=rootpassword
