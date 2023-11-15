@@ -9,6 +9,8 @@ RUN mkdir -p /etc/apache2/default_ssl
 
 # Activate SSL
 RUN a2enmod ssl && a2enmod rewrite
+RUN a2enmod authz_core 
+RUN a2enmod authz_groupfile
 
 # Copy default ssl files
 COPY ./default_ssl/fullchain.pem /etc/apache2/default_ssl/fullchain.pem

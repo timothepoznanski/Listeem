@@ -1,0 +1,5 @@
+AuthUserFile /var/www/html/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Access limited"
+AuthType Basic
+require valid-user
