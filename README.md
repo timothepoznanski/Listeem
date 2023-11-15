@@ -45,6 +45,7 @@ To get started, follow these steps:
     SERVER_NAME=example.com
     #SSL_CERT_FILE=/etc/apache2/ssl/fullchain.pem
     #SSL_KEY_FILE=/etc/apache2/ssl/privkey.pem
+    #HTPASSWD_NAME=.htpasswd
     ```
 
 4. **(Optional) Add your own SSL certificate for HTTPS:**
@@ -63,11 +64,11 @@ To get started, follow these steps:
 
     To view it in HTTP, open your web browser and visit:
 
-    `http://your-server-domain:8077`
+    `http://YOUR-SERVER-DOMAIN:YOUR-HTTP-PORT`
 
     To view it in HTTPS (with the self signed certificate or your own certificate), open your web browser and visit:
 
-    `https://your-server-domain:8078`
+    `https://YOUR-SERVER-DOMAIN:YOUR-HTTPS-PORT]`
 
 7. **Connect to the application:**
 
@@ -79,6 +80,7 @@ To get started, follow these steps:
 
     * Open a shell
     * Navigate to the project directory 
+    * Uncomment `HTPASSWD_NAME=.htpasswd` in `.env` file
     * Navigate to `src` folder
     * Create your .htpasswd (don't change its name) with your own user:
 
