@@ -79,12 +79,18 @@ If you want to contribute to the code, don't hesitate to open a pull request. Th
 **Case 1**
 
  ```bash
-    BDD connection error : Connection refused
+BDD connection error : Connection refused
+ ```
+
+or 
+
+ ```bash
+Fatal error: Uncaught Error: Call to a member function execute()
  ```
 
 The database is probably still initializing or it is a browser cache issue. Wait a few seconds, visit another web page and come back.
 
-Note : I have also encountered this error when the server runs out of memory
+Note :  I have also encountered this error when the server runs out of memory
 
 **Case 2**
 
