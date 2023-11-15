@@ -82,7 +82,7 @@ If you want to contribute to the code, don't hesitate to open a pull request. Th
     BDD connection error : Connection refused
  ```
 
-The database is probably still initializing. Wait a few seconds, visit another web page and come back.
+The database is probably still initializing or it is a browser cache issue. Wait a few seconds, visit another web page and come back.
 
 **Case 2**
 
