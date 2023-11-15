@@ -15,7 +15,7 @@ To get started, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/pozinux/listeem-app.git
+    git clone https://github.com/Pozinux/listeem-app.git
     ```
 
 2. **Navigate to the project directory:**
