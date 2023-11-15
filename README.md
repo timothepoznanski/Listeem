@@ -98,8 +98,6 @@ To get started, follow these steps:
         chown root:www-data .htpasswd
         ```
 
-    * Edit the .htaccess file and change `.htpasswd_default` into `.htpasswd`
-
 ## Contributing
 
 If you want to contribute to the code, don't hesitate to open a pull request. Thanks!
