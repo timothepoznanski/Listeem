@@ -50,7 +50,7 @@ if ($user_language_fr) {
     $var25 = "Appuyez ici pour montrer toutes les listes même les cachées";
     $var26 = "Exporter toutes les listes";
     $var27 = "Accueil";
-    $var28 = "Filtrez vos listes ici...";
+    $var28 = "Filtrez vos listes ici..";
     $var31 = "<br>Appuyez sur l'icone oeil pour changer la vue<br>ou appuyez sur l'icone plus pour créer une nouvelle liste.<br><br>";
     $var32 = "Créer une nouvelle liste";
     $var33 = "Nom de la liste";
