@@ -51,7 +51,8 @@ To get started, follow these steps:
 
 At this step, you should have the following directories and files:
 
-![screen2](.readme-screenshots/screen2.png)
+![screen2](https://github.com/Pozinux/listeem-app/assets/8541705/03b5b266-9e48-4702-ae80-6fdb5c4c24e6)
+
 
 5. **Run the application:**
    
