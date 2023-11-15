@@ -51,11 +51,6 @@ To get started, follow these steps:
     
     Create a folder named `ssl` and add your `privkey.pem` and `fullchain.pem` files to this folder. They have to be named exactly this way.
 
-At this step, you should have the following directories and files:
-
-![screen2](https://github.com/Pozinux/listeem-app/assets/8541705/03b5b266-9e48-4702-ae80-6fdb5c4c24e6)
-
-
 5. **Run the application:**
    
     ```bash
@@ -71,6 +66,8 @@ To view it in HTTP, open your web browser and visit:
 To view it in HTTPS (with the self signed certificate or your own certificate), open your web browser and visit:
 
  `https://your-server-domain:8078`
+
+Connect with login `listeem` and password `listeem`
 
 ## Contributing
 
