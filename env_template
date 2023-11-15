@@ -10,3 +10,4 @@ HTTPS_PORT=XXXX                                      # For example 8078 - Change
 SERVER_NAME=XXXXXXXXX                                # For exemple exemple.com or localhost
 #SSL_CERT_FILE=/etc/apache2/ssl/fullchain.pem        # Uncomment if you provide your own certificate for https into ssl folder
 #SSL_KEY_FILE=/etc/apache2/ssl/privkey.pem           # Uncomment if you provide your own certificate for https into ssl folder
+#HTPASSWD_NAME=.htpasswd                             # Uncomment if you provide your own .htpasswd file
