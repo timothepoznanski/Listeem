@@ -3,6 +3,13 @@
 session_start();
 require('./config.php');
 
+// Vérification si l'utilisateur est déjà connecté dans cette session
+if (!isset($_SESSION['auth']) || $_SESSION['auth'] !== true) {
+    // Redirection vers la page de connexion ou une page d'erreur
+    header('Location: ./login.php');
+    exit();
+}
+
 if(isset($_GET["list_name"])){ // Si on vient de la page create
     $l_name = trim($_GET["list_name"]);
     $l_emoji = trim($_GET["list_emoji"]);                  

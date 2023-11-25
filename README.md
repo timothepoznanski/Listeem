@@ -45,6 +45,7 @@ To get started, follow these steps:
     SERVER_NAME=example.com
     #SSL_CERT_FILE=/etc/apache2/ssl/fullchain.pem
     #SSL_KEY_FILE=/etc/apache2/ssl/privkey.pem
+    APP_PASSWORD=listeem
     ```
 
 4. **(Optional) Add your own SSL certificate for HTTPS:**
@@ -72,6 +73,10 @@ To get started, follow these steps:
     To view it in HTTPS (with the self signed certificate or your own certificate), open your web browser and visit:
 
     `https://YOUR-SERVER-DOMAIN:YOUR-HTTPS-PORT`
+
+7. **Connect to the application:**
+
+    Connect with default password `listeem` or the password you provided in the .env file.
 
 ## Contributing
 

@@ -16,6 +16,8 @@ if(isset($_COOKIE['lang']))
     }
 }
 
+// APP CONNECTION
+$app_password = getenv('APP_PASSWORD');
 
 // BDD CONNECTION
 $db_host = 'dbserver'; // Container name (from docker-compose file)
@@ -30,7 +32,7 @@ if (!$connect) {
 }
 
 // Key to encrypt and decrypt
-$key = getenv('KEY_TO_ENCRYPT_DECRYPT_DB');;
+$key = getenv('KEY_TO_ENCRYPT_DECRYPT_DB');
 
 
 // Constants
@@ -80,6 +82,7 @@ if ($user_language_fr) {
     $var58 = "Date d'expiration de la tâche :";
     $var59 = "Tâche importante";
     $var60 = "Datez vos tâches";
+    $var61 = "Mot de passe ?";
 
 } else {
     // English
@@ -125,4 +128,5 @@ if ($user_language_fr) {
     $var58 = "Task expiration date :";
     $var59 = "Important task";
     $var60 = "Set tasks dates";
+    $var61 = "Password?";
 }

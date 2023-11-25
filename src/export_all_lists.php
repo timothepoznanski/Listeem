@@ -3,6 +3,13 @@
 session_start();
 require('./config.php');
 
+// Vérification si l'utilisateur est déjà connecté dans cette session
+if (!isset($_SESSION['auth']) || $_SESSION['auth'] !== true) {
+    // Redirection vers la page de connexion ou une page d'erreur
+    header('Location: ./login.php');
+    exit();
+}
+
 $stmt = $connect->prepare("SELECT list_id, list_emoji, list_name FROM lists");
 
 $stmt->execute();

@@ -3,6 +3,13 @@
 session_start();
 require('./config.php');
 
+// Vérification si l'utilisateur est déjà connecté dans cette session
+if (!isset($_SESSION['auth']) || $_SESSION['auth'] !== true) {
+    // Redirection vers la page de connexion ou une page d'erreur
+    header('Location: ./login.php');
+    exit();
+}
+
 $item_id = $_POST['item_id'];
 $new_item = $_POST['new_item'];
 

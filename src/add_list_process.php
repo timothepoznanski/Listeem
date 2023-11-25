@@ -7,6 +7,13 @@
 session_start();
 require('./config.php');
 
+// Vérification si l'utilisateur est déjà connecté dans cette session
+if (!isset($_SESSION['auth']) || $_SESSION['auth'] !== true) {
+    // Redirection vers la page de connexion ou une page d'erreur
+    header('Location: ./login.php');
+    exit();
+}
+
 if(isset($_POST["sign_up"])){
 
     // Récupérez le nom de la liste

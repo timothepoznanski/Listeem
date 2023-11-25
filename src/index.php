@@ -69,7 +69,7 @@ require('./create_tables.php');
         });
     
         setTimeout(function() {
-            window.location.href = "home.php";  // Si je met pas de timeout, set_lang.php ci-dessous n'a pas le temps d'enregistrer la variable
+            window.location.href = "login.php";  // Si je met pas de timeout, set_lang.php ci-dessous n'a pas le temps d'enregistrer la variable
         }, 1500);
 
     </script>

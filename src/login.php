@@ -4,16 +4,8 @@ session_start();
 require('./config.php');
 
 // Vérification si l'utilisateur est déjà connecté dans cette session
-if (!isset($_SESSION['auth']) || $_SESSION['auth'] !== true) {
-    // Redirection vers la page de connexion ou une page d'erreur
-    header('Location: ./login.php');
-    exit();
-}
-
-// Vérification si l'utilisateur est déjà connecté dans cette session
-if (!isset($_SESSION['auth']) || $_SESSION['auth'] !== true) {
-    // Redirection vers la page de connexion ou une page d'erreur
-    header('Location: ./login.php');
+if (isset($_SESSION['auth']) || $_SESSION['auth'] == true) {
+    header('Location: ./home.php');
     exit();
 }
 
@@ -41,16 +33,13 @@ if (!isset($_SESSION['auth']) || $_SESSION['auth'] !== true) {
                 
         <div style="text-align: center;">
 
-            <br>
-
-            <h4 class="main-heading text-center"><?php echo $var1 ?></h4>
-
-            <hr style="margin: auto; margin-bottom: 30px" />
-
-            <div class="d-flex" style="margin-bottom: 40px; margin-top: 45px;; padding-left:20px; padding-right:20px">
-                <a href="my_lists.php" class="btn btn-outline-info w-100 mr-2"><?php echo $var2 ?></a>
-                <!-- <a href="create_tables.php" class="btn btn-outline-info w-100"><?php echo $var3 ?></a> -->
-            </div>
+        <br>
+        <br>
+        <h1 style="text-align:center"><img width="30" height="30" class="imagelogin" src="favicon.ico"></h1>
+        <br>
+        <form action="login_action.php" method="POST">
+            <h4><input autocomplete="off" spellcheck="false" id="pass" style="text-align:center; border: none; outline: none;" name="pass" type="password" placeholder="<?php echo $var61 ?>"></h4>
+        </form>
 
         </div>                 
 

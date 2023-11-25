@@ -3,6 +3,13 @@
 session_start();
 require('./config.php');
 
+// Vérification si l'utilisateur est déjà connecté dans cette session
+if (!isset($_SESSION['auth']) || $_SESSION['auth'] !== true) {
+    // Redirection vers la page de connexion ou une page d'erreur
+    header('Location: ./login.php');
+    exit();
+}
+
 // Récupération des valeurs postées
 $list_emoji = isset($_POST['clicked_emoji']) ? $_POST['clicked_emoji'] : '';
 $list_name = isset($_POST['list_name']) ? $_POST['list_name'] : '';
