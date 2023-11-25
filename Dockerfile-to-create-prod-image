@@ -9,10 +9,6 @@ RUN mkdir -p /etc/apache2/default_ssl
 # Activate SSL
 RUN a2enmod ssl && a2enmod rewrite
 
-# Activate htaccess
-RUN a2enmod authz_core 
-RUN a2enmod authz_groupfile
-
 # Copy default ssl files
 COPY ./default_ssl/fullchain.pem /etc/apache2/default_ssl/fullchain.pem
 COPY ./default_ssl/privkey.pem /etc/apache2/default_ssl/privkey.pem
@@ -22,12 +18,6 @@ COPY ./000-default.conf /etc/apache2/sites-available/000-default.conf
 
 # Copy app code into container apache web directory
 COPY ./src /var/www/html
-
-# Change permissions and group htpasswd and htaccess
-RUN chmod 640 .htaccess
-RUN chown root:www-data .htaccess
-RUN chmod 640 .htpasswd_default
-RUN chown root:www-data .htpasswd_default
 
 # Expose port HTTP and HTTPS
 EXPOSE 80
