@@ -45,7 +45,6 @@ To get started, follow these steps:
     SERVER_NAME=example.com
     #SSL_CERT_FILE=/etc/apache2/ssl/fullchain.pem
     #SSL_KEY_FILE=/etc/apache2/ssl/privkey.pem
-    #HTPASSWD_NAME=.htpasswd
     ```
 
 4. **(Optional) Add your own SSL certificate for HTTPS:**
@@ -73,36 +72,6 @@ To get started, follow these steps:
     To view it in HTTPS (with the self signed certificate or your own certificate), open your web browser and visit:
 
     `https://YOUR-SERVER-DOMAIN:YOUR-HTTPS-PORT`
-
-7. **Connect to the application:**
-
-    Connect with login `listeem` and password `listeem`
-
-8. **(Optional) Change authentification:**
-
-    To remove `listeem` account and add your own user : 
-
-    * Open a shell
-    * Navigate to the project directory 
-    * Uncomment `HTPASSWD_NAME=.htpasswd` in `.env` file
-    * Navigate to `src` folder
-    * Create your .htpasswd (don't change its name) with your own user:
-
-        ```bash
-        htpasswd -c .htpasswd YOUR_OWN_USER
-        ```
-
-    * Change permissions:
-
-        ```bash
-        chmod 640 .htpasswd
-        ```
-        
-    * Change group:
-
-        ```bash
-        chown root:www-data .htpasswd
-        ```
 
 ## Contributing
 
