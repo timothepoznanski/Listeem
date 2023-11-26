@@ -43,9 +43,9 @@ if ($user_language_fr) {
     $var1 = "LISTEEM";
     $var2 = "Mes listes";
     $var3 = "Créer les tables";
-    $var19 = "Toutes les listes";
-    $var20 = "Listes non-cachées";
-    $var21 = "Listes cachées";
+    // $var19 = "Toutes les listes";
+    // $var20 = "Listes non-cachées";
+    // $var21 = "Listes cachées";
     $var22 = "Créer une nouvelle liste";
     $var23 = "Appuyez ici pour montrer seulement les listes non-cachées";
     $var24 = "Appuyez ici pour montrer seulement les listes cachées";
@@ -89,9 +89,9 @@ if ($user_language_fr) {
     $var1 = "LISTEEM";
     $var2 = "My lists";
     $var3 = "Create tables";
-    $var19 = "All lists";
-    $var20 = "Lists not hidden";
-    $var21 = "Lists hidden";
+    // $var19 = "All lists";
+    // $var20 = "Lists not hidden";
+    // $var21 = "Lists hidden";
     $var22 = "Create a new list";
     $var23 = "Click here to show only lists not hidden";
     $var24 = "Click here to show only hidden lists";

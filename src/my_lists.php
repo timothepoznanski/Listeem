@@ -57,7 +57,7 @@ if ($show_hidden_lists == 1) {
 
 <body class="my-custom-class">
 
-    <div style="margin-top: 35px; margin-bottom: 10px">
+    <!-- <div style="margin-top: 35px; margin-bottom: 10px">
 
         <?php if ($show_hidden_lists == 1): ?>
             <h5 class="main-heading text-center"><?php echo $var19 ?></h5>
@@ -67,7 +67,7 @@ if ($show_hidden_lists == 1) {
             <h5 class="main-heading text-center"><?php echo $var21 ?></h5>
         <?php endif; ?>
 
-    </div>
+    </div> -->
 
     <article class="card-body mx-auto" style="max-width: 500px; ">
 
