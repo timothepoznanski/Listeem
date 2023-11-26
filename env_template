@@ -7,6 +7,7 @@ MYSQL_DATABASE=listeem_container_db                  # No need to change it but 
 KEY_TO_ENCRYPT_DECRYPT_DB=XXXX                       # For exemple `5465sdfsd63774sdf654sdf`
 HTTP_PORT=XXXX                                       # For example `8077` - Change if you deploy another Listeem instance on the same server
 HTTPS_PORT=XXXX                                      # For example `8078` - Change if you deploy another Listeem instance on the same server
+PHPMYADMIN_PORT=XXXX                                 # For example `8081` - Change if you deploy another Listeem instance on the same server
 SERVER_NAME=XXXXXXXXX                                # For exemple `exemple.com` or `localhost`
 #SSL_CERT_FILE=/etc/apache2/ssl/fullchain.pem        # Uncomment if you provide your own certificate for https into ssl folder
 #SSL_KEY_FILE=/etc/apache2/ssl/privkey.pem           # Uncomment if you provide your own certificate for https into ssl folder
