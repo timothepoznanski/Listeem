@@ -3,7 +3,7 @@ services:
   
   # WEB      
   webserver:       
-    container_name: listeem_web
+    container_name: listeem_web_${PROJECT_ID}
     build:
       context: . # Use the current directory as the build context
       dockerfile: Dockerfile # Specify the Dockerfile to use
@@ -28,7 +28,7 @@ services:
 
   # DATABASE
   dbserver:
-    container_name: listeem_db
+    container_name: listeem_db_${PROJECT_ID}
     image: mysql
     restart: always
     volumes:
@@ -42,7 +42,7 @@ services:
   # PHPMYADMIN
   phpmyadmin:
     image: phpmyadmin
-    container_name: phpmyadmin
+    container_name: phpmyadmin_${PROJECT_ID}
     links:
       - dbserver
     environment:
