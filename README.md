@@ -58,8 +58,13 @@ To get started, follow these steps:
 
 5. **Run the application:**
    
-    ```bash
+     ```bash
     docker compose up -d
+
+    ou
+
+    podman-compose up -d
+   
     ```
 
     Now, the Listeem application should be up and running. 
