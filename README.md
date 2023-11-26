@@ -33,8 +33,6 @@ To get started, follow these steps:
     Example :
 
     ```bash
-    PROJECT_ID=3
-    COMPOSE_PROJECT_NAME=listeem_${PROJECT_ID}
     MYSQL_USER=user1
     MYSQL_PASSWORD=pass1
     MYSQL_ROOT_PASSWORD=rootpassword
@@ -42,6 +40,7 @@ To get started, follow these steps:
     KEY_TO_ENCRYPT_DECRYPT_DB=fds54dfg654897sdf312sdf3
     HTTP_PORT=8077
     HTTPS_PORT=8078
+    PHPMYADMIN_PORT=8081
     SERVER_NAME=example.com
     #SSL_CERT_FILE=/etc/apache2/ssl/fullchain.pem
     #SSL_KEY_FILE=/etc/apache2/ssl/privkey.pem
