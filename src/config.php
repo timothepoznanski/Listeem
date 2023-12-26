@@ -47,9 +47,9 @@ if ($user_language_fr) {
     // $var20 = "Listes non-cachées";
     // $var21 = "Listes cachées";
     $var22 = "Créer une nouvelle liste";
-    $var23 = "Appuyez ici pour montrer seulement les listes non-cachées";
-    $var24 = "Appuyez ici pour montrer seulement les listes cachées";
-    $var25 = "Appuyez ici pour montrer toutes les listes même les cachées";
+    $var23 = "Appuyez ici pour montrer les listes non cachées";
+    $var24 = "Appuyez ici pour montrer les listes cachées";
+    // $var25 = "Appuyez ici pour montrer toutes les listes même les cachées";
     $var26 = "Exporter toutes les listes";
     $var27 = "Accueil";
     $var28 = "Filtrez vos listes ici..";
@@ -93,9 +93,9 @@ if ($user_language_fr) {
     // $var20 = "Lists not hidden";
     // $var21 = "Lists hidden";
     $var22 = "Create a new list";
-    $var23 = "Click here to show only lists not hidden";
-    $var24 = "Click here to show only hidden lists";
-    $var25 = "Click here to show all lists even hidden ones";
+    $var23 = "Click here to show lists not hidden";
+    $var24 = "Click here to show hidden lists";
+    // $var25 = "Click here to show all lists even hidden ones";
     $var26 = "Export all lists";
     $var27 = "Home";
     $var28 = "Filter your lists here...";

@@ -28,14 +28,10 @@ if (isset($_GET['eye'])) {
 $show_hidden_lists = $_SESSION['eye_clicked'];
 
 if ($show_hidden_lists == 1) {
-    $query = "SELECT * FROM lists";
-} elseif ($show_hidden_lists == 0) {
-    $query = "SELECT * FROM lists WHERE hidden = 0";
-} else {
-    // When $show_hidden_lists is neither 0 nor 1, fetch all lists (including hidden ones)
     $query = "SELECT * FROM lists WHERE hidden = 1";
-}
-
+} else {
+    $query = "SELECT * FROM lists WHERE hidden = 0";
+} 
 
 ?>
 
@@ -80,22 +76,18 @@ if ($show_hidden_lists == 1) {
             <?php if ($show_hidden_lists == 1): ?>
                 <a href="javascript:void(0);" class="btn btn-outline-info" onclick="toggleEyeClicked(0)" style="text-decoration: none;">
                     <span title="<?php echo $var23 ?>">
-                        <i class="fa fa-eye icon-menu"></i>
+                        <i class="fa fa-eye-slash icon-menu"></i>
                     </span>
                 </a>&emsp;&emsp;
 
             <?php elseif ($show_hidden_lists == 0): ?>
-                <a href="javascript:void(0);" class="btn btn-outline-info" onclick="toggleEyeClicked(-1)" style="text-decoration: none;">
-                    <span title="<?php echo $var24 ?>">
-                        <i class="fa fa-eye-slash icon-menu"></i>
-                    </span>
-                </a>&emsp;&emsp;
-            <?php else: ?>
                 <a href="javascript:void(0);" class="btn btn-outline-info" onclick="toggleEyeClicked(1)" style="text-decoration: none;">
-                    <span title="<?php echo $var25 ?>">
-                        <i class="fa-solid fa-eye-low-vision icon-menu"></i>
+                    <span title="<?php echo $var24 ?>">
+                        <i class="fa fa-eye icon-menu"></i>
                     </span>
                 </a>&emsp;&emsp;
+            
+
             <?php endif; ?>
 
             <div style="display: inline-block;">
