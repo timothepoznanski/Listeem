@@ -1,3 +1,4 @@
+MYSQL_HOST=XXXX                                      # For exemple `dbserver if container or 192.X.X.X`
 MYSQL_USER=XXXX                                      # For exemple `user1`
 MYSQL_PASSWORD=XXXX                                  # For exemple `pass1`
 MYSQL_ROOT_PASSWORD=XXXX                             # For exemple `rootpass`
