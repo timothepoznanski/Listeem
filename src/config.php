@@ -20,7 +20,8 @@ if(isset($_COOKIE['lang']))
 $app_password = getenv('APP_PASSWORD');
 
 // BDD CONNECTION
-$db_host = 'dbserver'; // Container name (from docker-compose file)
+//$db_host = 'dbserver'; // Container name (from docker-compose file)
+$db_host = getenv('MYSQL_HOST');
 $db_username = getenv('MYSQL_USER');
 $db_password = getenv('MYSQL_PASSWORD');
 $db_name = getenv('MYSQL_DATABASE');
