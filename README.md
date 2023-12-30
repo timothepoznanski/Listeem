@@ -33,6 +33,7 @@ To get started, follow these steps:
     Example :
 
     ```bash
+    MYSQL_HOST=dbserver
     MYSQL_USER=user1
     MYSQL_PASSWORD=pass1
     MYSQL_ROOT_PASSWORD=rootpassword
