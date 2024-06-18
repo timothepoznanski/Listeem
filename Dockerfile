@@ -1,4 +1,4 @@
-# Dockerfile used by docker-compose.yml in DEV server
+# Dockerfile used by docker-compose.yml
 FROM php:7.4-apache
 
 # Install (but also activate mysqli extension)
