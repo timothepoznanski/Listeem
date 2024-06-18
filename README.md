@@ -85,6 +85,10 @@ To get started, follow these steps:
 
     Connect with default password `listeem` or the password you provided in the .env file.
 
+## Updates
+
+If you want to keep your container but change something into the config file (your password for example), stop and remove your running container (don't worry, your data are stored on your host), update your .env file and run the step 5 (Run the application). This will launch a new container from the image already present on your host but will also use the new .env config file.
+
 ## Contributing
 
 If you want to contribute to the code, don't hesitate to open a pull request. Thanks!
