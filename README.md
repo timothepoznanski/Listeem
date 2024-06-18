@@ -1,27 +1,29 @@
-# Listeem-app
+# Listeem
 
-Welcome to Listeem development page ! 🚀 
+Welcome to Listeem! 🚀 
 
-If you don't know what Listeem is, please first visit [this link](https://github.com/Pozinux/listeem) to learn more about it. 
+Listeem is a simple to-do list web app.
 
-If you just want to install the latest version of Listeem and use it for yourself on your own server or computer, Listeem is provided in the form of a Docker container publicly stored on Docker Hub. Please follow the installation steps described at [this link](https://github.com/Pozinux/listeem)
+Among the many to-do list tools already available, it's not always easy to find one that suits our needs. Options are either overloaded with features or lack essentials. Listeem was therefore designed with an emphasis on simplicity and the essentials for effective to-do list management.
 
-However, if you want to contribute to this project, you are at the right place!
+## Screenshot
 
-## Installation of development version
+![2023-11-26_20h48_29](https://github.com/timothepoznanski/listeem/assets/8541705/9810b8a1-58d2-408d-8ecb-c92ea4c3205f)
+
+## Installation
 
 To get started, follow these steps:
 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/Pozinux/listeem-app.git
+    git clone https://github.com/timothepoznanski/listeem.git
     ```
 
 2. **Navigate to the project directory:**
  
     ```bash
-    cd listeem-app
+    cd listeem
     ```
 
 3. **Create your configuration:**
