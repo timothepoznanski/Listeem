@@ -1,3 +1,2 @@
 ssl/*.pem
 .env
-.htpasswd
