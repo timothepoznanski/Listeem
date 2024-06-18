@@ -1,4 +1,4 @@
-MYSQL_HOST=XXXX                                      # For exemple `dbserver if container or 192.X.X.X`
+MYSQL_HOST=XXXX                                      # For exemple `dbserver if container or IP address of your own MySQL server`
 MYSQL_USER=XXXX                                      # For exemple `user1`
 MYSQL_PASSWORD=XXXX                                  # For exemple `pass1`
 MYSQL_ROOT_PASSWORD=XXXX                             # For exemple `rootpass`
@@ -7,7 +7,7 @@ KEY_TO_ENCRYPT_DECRYPT_DB=XXXX                       # For exemple `5465sdfsd637
 HTTP_PORT=8077                                       # No need to change it but if you need you can
 HTTPS_PORT=8078                                      # No need to change it but if you need you can
 PHPMYADMIN_PORT=8081                                 # No need to change it but if you need you can
-SERVER_NAME=XXXXXXXXX                                # For exemple `exemple.com` or `localhost`
+SERVER_NAME=XXXXXXXXX                                # For exemple `yourdomain.com` or `localhost`
 #SSL_CERT_FILE=/etc/apache2/ssl/fullchain.pem        # Uncomment if you provide your own certificate for https into ssl folder
 #SSL_KEY_FILE=/etc/apache2/ssl/privkey.pem           # Uncomment if you provide your own certificate for https into ssl folder
 APP_PASSWORD=listeem                                 # For exemple `yourownpassword` - Provide your own password - Default password is `listeem`
